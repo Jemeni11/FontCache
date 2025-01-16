@@ -1,101 +1,123 @@
-# ReactViteTS (Vite + React + TypeScript + TailwindCSS + Prettier + ESLint)
+<a id="readme-top"></a>
+
+<br />
+<div align="center">
+  <a href="https://github.com/Jemeni11/FontCache"><img src="logo.png" alt="Logo" width="128" height="128"></a>
+
+<h3 align="center">FontCache</h3>
+
+  <p align="center">
+    Discover, collect, and save fonts effortlessly.
+    <br />
+    <a href="https://github.com/Jemeni11/FontCache"><strong>Explore the repo »</strong></a>
+    <br />
+  </p>
+</div>
+
+Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+  - [From Browser Stores](#from-browser-stores)
+  - [Local installation](#local-installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Why did I build this?](#why-did-i-build-this)
+- [Contributing](#contributing)
+- [Wait a minute, who are you?](#wait-a-minute-who-are-you)
+- [License](#license)
+- [Changelog](#changelog)
 
 ## Introduction
 
-Hey!
-This is a vite template with the following installed:
+FontCache is your go-to browser extension for collecting and organizing fonts from any webpage. Easily discover fonts in use, pick your favorites, and save them with site and date details. With real-time previews and seamless organization, FontCache turns font inspiration into action, helping designers and developers stay productive and creative.
 
-- [Vite 5.4.1](https://vitejs.dev/)
-- [React 18.3.1](https://react.dev/)
-- [Typescript 5.5.3](https://www.typescriptlang.org/)
-- [TailwindCSS 3.4.10](https://tailwindcss.com/)
-- [Prettier 3.3.3](https://prettier.io/)
-- [prettier-plugin-tailwind 0.6.6](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
-- [ESLint 9.9.0](https://eslint.org/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Features
+
+- **Discover Fonts**: Automatically list all fonts used on any webpage.
+- **Select Favorites**: Pick and save fonts using a simple checkable list.
+- **Track Sources**: Save fonts with site names and discovery dates.
+- **Real-Time Previews**: See your saved fonts rendered in their actual styles.
+- **Local Storage**: Securely store data using IndexedDB—fast and private.
+- **No Extra Loading**: Use fonts already present on the page.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Installation
 
-You can either:
+### From Browser Stores
 
-- Clone the repo and run `pnpm install` in the root directory
+- Chrome Web Store
+- Microsoft Edge
+- Mozilla Firefox
 
-  Bash:
-  
-  ```bash
-  git clone https://github.com/Jemeni11/ReactViteTS.git && cd ReactViteTS && pnpm install
-  ```
+### Local installation
 
-  Powershell:
-  
-  ```powershell
-  git clone https://github.com/Jemeni11/ReactViteTS.git; cd ReactViteTS; pnpm install
-  ```
+> [!INFO]
+> 
+> You may need Developer Mode enabled in your browser.
 
-  <br/>
-  <br/>
+```sh
+pnpm install
+```
 
-- Or click on the `use this template` button and pick whatever option you prefer
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  <br/>
-  <br/>
+## Usage
 
-  <img width="945" alt="Screenshot of this repo's github page" src="https://github.com/user-attachments/assets/bc779b76-8c38-451f-91f3-6712ebff2860">
+```
+usage: whoop di scoop
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Examples
+
+wahhaaaaaa
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Why did I build this?
+
+I love beautiful websites, and I believe one of the things that make them stunning is the fonts (and how they’re used). Whenever I came across a nice font, I’d open DevTools to find its name. This process was frustrating, so I installed an extension to make it easier. However, the extension I used only provided the font name. I couldn’t save the font name or the website it came from, so I ended up pasting everything into my notes. Later, when I wanted to use one of the fonts, I couldn’t even remember what it looked like. I also didn’t like switching back and forth between my browser and my notes app. So, I decided to build an extension that could do all of this for me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve FontCache, please feel free to submit a pull request.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Wait a minute, who are you?
 
-Hello there! I'm Emmanuel Jemeni, and I work as a Frontend Developer. You can find me on various platforms:
+Hello there! I'm Emmanuel Jemeni, and I am a Frontend Developer.
+
+You can find me on various platforms:
 
 - [LinkedIn](https://www.linkedin.com/in/emmanuel-jemeni)
 - [GitHub](https://github.com/Jemeni11)
 - [Twitter/X](https://twitter.com/Jemeni11_)
+- [Bluesky](https://bsky.app/profile/jemeni11.bsky.social)
 
-## Vite-Specific Information
+If you'd like, you can support me on [GitHub Sponsors](https://github.com/sponsors/Jemeni11/)
+or [Buy Me A Coffee](https://www.buymeacoffee.com/jemeni11).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Currently, two official plugins are available:
+## License
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[MIT License](LICENSE)
 
-### Expanding the ESLint configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Changelog
+[Changelog](/CHANGELOG.md)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
