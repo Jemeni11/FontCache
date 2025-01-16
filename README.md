@@ -57,7 +57,7 @@ FontCache is your go-to browser extension for collecting and organizing fonts fr
 
 ### Local installation
 
-> [!INFO]
+> [!NOTE]
 > 
 > You may need Developer Mode enabled in your browser.
 
