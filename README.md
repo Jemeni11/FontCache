@@ -2,7 +2,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/Jemeni11/FontCache"><img src="logo.png" alt="Logo" width="128" height="128"></a>
+  <a href="https://github.com/Jemeni11/FontCache"><img src="assets/icon.png" alt="Logo" width="128" height="128"></a>
 
 <h3 align="center">FontCache</h3>
 
