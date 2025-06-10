@@ -7,11 +7,11 @@ export const CountButton = () => {
     <button
       onClick={() => increase()}
       type="button"
-      className="plasmo-flex plasmo-flex-row plasmo-items-center plasmo-px-4 plasmo-py-2 plasmo-text-sm plasmo-rounded-lg plasmo-transition-all plasmo-border-none
-      plasmo-shadow-lg hover:plasmo-shadow-md
-      active:plasmo-scale-105 plasmo-bg-slate-50 hover:plasmo-bg-slate-100 plasmo-text-slate-800 hover:plasmo-text-slate-900">
+      className="plasmo-fc-flex plasmo-fc-flex-row plasmo-fc-items-center plasmo-fc-px-4 plasmo-fc-py-2 plasmo-fc-text-sm plasmo-fc-rounded-lg plasmo-fc-transition-all plasmo-fc-border-none
+      plasmo-fc-shadow-lg hover:plasmo-fc-shadow-md
+      active:plasmo-fc-scale-105 plasmo-fc-bg-slate-50 hover:plasmo-fc-bg-slate-100 plasmo-fc-text-slate-800 hover:plasmo-fc-text-slate-900">
       Count:
-      <span className="plasmo-inline-flex plasmo-items-center plasmo-justify-center plasmo-w-8 plasmo-h-4 plasmo-ml-2 plasmo-text-xs plasmo-font-semibold plasmo-rounded-full">
+      <span className="plasmo-fc-inline-flex plasmo-fc-items-center plasmo-fc-justify-center plasmo-fc-w-8 plasmo-fc-h-4 plasmo-fc-ml-2 plasmo-fc-text-xs plasmo-fc-font-semibold plasmo-fc-rounded-full">
         {count}
       </span>
     </button>
